@@ -3,7 +3,7 @@
   <a href="https://www.paypal.com/paypalme/floriancegledi" target="_blank"><img src="https://img.shields.io/badge/PayPal-Support%20me%3F-blue"></img></a>
   <a href="https://www.patreon.com/bates" target="_blank"><img src="https://img.shields.io/badge/Patreon-Support%20me%3F-f96854"></img></a>
 </div>
-<h1 align="center">Fallout 4 Terminal Theme</h1>
+<h1 align="center">Fallout <strike>4</strike> New Vegas Terminal Theme</h1>
 <img src="https://commandcrafterhd.github.io/Fallout4TerminalTheme/img/FalloutTerminal.png">
 
 <h2>About</h2>
