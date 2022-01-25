@@ -463,16 +463,6 @@ h2{
 	border: 1px solid var(--highlight)
 }
 /* Fix Phone! */
-.icon-JRJzJz svg {
-	width: 0px;
-}
-.icon-JRJzJz::after {
-	content: '';
-	display: inline-block;
-	-webkit-mask-image: url("assets/5e64269a40d5bb745c2f3df29f26738d.svg");
-	-webkit-mask-repeat: no-repeat;
-	-webkit-mask-size: cover;
-	background-color: var(--highlight);
-	width: 240px !important;
-	height: 14px !important;
+.icon-JRJzJz {
+	filter: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg")
 }
