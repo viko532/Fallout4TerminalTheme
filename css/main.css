@@ -448,8 +448,8 @@ body *, .userPopout-3XzG_A * {
 .avatar-hint,
 .avatar-wrapper,
 .wrapper-1VLyxH {
-	border-radius: 0 !important;
-  filter: sepia(80%)  !important;
+  border-radius: 0;
+  filter: sepia(80%);
 }
 /* Text Embolden */
 .name-3Vmqxm,
@@ -458,17 +458,21 @@ h2{
   font-weight: bold;
 }
 
-/* Add custom title! */
+/* Borders */
+.scroller-hE2gWq{
+	border: 1px solid var(--highlight)
+}
+/* Fix Phone! */
 .icon-JRJzJz svg {
-  width: 0px;
+	width: 0px;
 }
 .icon-JRJzJz::after {
-  content: '';
-  display: inline-block;
-  -webkit-mask-image: url("https://www.dropbox.com/s/s6nusrsbc2sawx3/Test.svg"); 
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
-  background-color: var(--highlight);
-  width: 240px !important;
-  height: 14px !important;
+	content: '';
+	display: inline-block;
+	-webkit-mask-image: url("assets/5e64269a40d5bb745c2f3df29f26738d.svg");
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: cover;
+	background-color: var(--highlight);
+	width: 240px !important;
+	height: 14px !important;
 }
