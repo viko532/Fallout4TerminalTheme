@@ -437,20 +437,6 @@ body *, .userPopout-3XzG_A * {
   background-color: var(--background);
 }
 
-/* COLOURED AVATAR FILTERS */
-.avatar-large,
-.avatar-profile,
-.avatar-small,
-.avatar-xlarge,
-.avatar-xsmall,
-.avatar-xxlarge,
-.avatar-popout,
-.avatar-hint,
-.avatar-wrapper,
-.wrapper-1VLyxH {
-  border-radius: 0;
-  filter: sepia(80%);
-}
 /* Text Embolden */
 .name-3Vmqxm,
 .username-h_Y3Us,
@@ -462,7 +448,45 @@ h2{
 .scroller-hE2gWq{
 	border: 1px solid var(--highlight)
 }
-/* Fix Phone! */
-.icon-JRJzJz {
-	filter: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg")
+.divider-2rZFJK,
+.form-3gdLxP,
+.container-YkUktl {
+	border-top: thin solid var(--highlight)
 }
+
+.wrapper-1_HaEi,
+.sidebar-1tnWFu {
+	border-right: thin double var(--highlight)
+}
+
+.members-3WRCEx {
+	border-left: thin double var(--highlight)
+}
+
+.selected-1-Z6gm .layout-1qmrhw {
+	border-radius: 0;
+	color: black;
+	border: thin solid var(--highlight);
+}
+
+.title-31SJ6t {
+	border-bottom: thin solid var(--highlight)
+}
+/* COLOUR FIXER */
+:root, .theme-light {
+	--background-modifier-selected: var(--highlight);
+	--background-modifier-hover: hsl(38, 100%, 8%);
+	--background-modifier-active: hsl(38, 100%, 5%);
+	--background-accent: var(--highlight);
+}
+/* SELECTOR */
+.clickable-28SzVr:hover .layout-1qmrhw {
+	border: thin solid var(--highlight);
+	border-radius: 0;
+}
+/* MESSAGE BAR */
+.scrollableContainer-15eg7h, .searchBarComponent-3N7dCG, .searchBar-zdmu7v {
+	outline: thin solid var(--highlight);
+	border-radius: 0;
+}
+
