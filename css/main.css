@@ -6,18 +6,18 @@
 :root, .theme-light {
   --rgb-highlight: 4, 217, 255;
   --highlight: var(--text-color);
-  --background: #000900;
-  --text-color: #4AEF98;
+  --background: rgb(10, 6, 0);
+  --text-color: rgb(255, 183, 66);
   --close-button: var(--dnd-color) !important;
-  --online-color: #39ff14;
-  --afk-color: #FFFF33;
+  --online-color: rgb(26, 255, 128);
+  --afk-color: #C0FFFF;
   --dnd-color: #FF0000;
   --streaming-color: #bc13fe;
   --rs-online-color: var(--online-color);
   --rs-idle-color: var(--afk-color);
   --rs-dnd-color: var(--dnd-color);
-  --rs-offline-color: gray;
-  --rs-invisible-color: gray;
+  --rs-offline-color: #663f00;
+  --rs-invisible-color: #663f00;
   --rs-streaming-color: var(--stream-color);
   --interactive-hover: var(--highlight);
   --interactive-active: var(--highlight);
@@ -107,15 +107,14 @@ body *, .userPopout-3XzG_A * {
   pointer-events: auto !important;
 }
 
+/* Add custom title! */
 .wordmarkWindows-2dq6rw svg {
   width: 0px;
 }
-
-/* Add custom title! */
 .wordmarkWindows-2dq6rw::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg");
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg"); 
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
@@ -436,4 +435,40 @@ body *, .userPopout-3XzG_A * {
 /* --== Style custom status ==-- */
 .theme-dark .footer-31IekZ {
   background-color: var(--background);
+}
+
+/* COLOURED AVATAR FILTERS */
+.avatar-large,
+.avatar-profile,
+.avatar-small,
+.avatar-xlarge,
+.avatar-xsmall,
+.avatar-xxlarge,
+.avatar-popout,
+.avatar-hint,
+.avatar-wrapper,
+.wrapper-1VLyxH {
+	border-radius: 0 !important;
+  filter: sepia(80%)  !important;
+}
+/* Text Embolden */
+.name-3Vmqxm,
+.username-h_Y3Us,
+h2{
+  font-weight: bold;
+}
+
+/* Add custom title! */
+.icon-JRJzJz svg {
+  width: 0px;
+}
+.icon-JRJzJz::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://www.dropbox.com/s/s6nusrsbc2sawx3/Test.svg"); 
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 240px !important;
+  height: 14px !important;
 }
