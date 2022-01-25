@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 :root {
-    --highlight: var(--text-color);
-    --text-color: #ffb742;
-    --background: #0a0600;
+  --highlight: var(--text-color);
+  --text-color: #4AEF98;
+  --background: #000900;
 }
 
 html::before {
